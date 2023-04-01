@@ -1,0 +1,61 @@
+:root {
+  --main-title-color: #2e2f42;
+  --btn-color: #4d5ae5;
+  --main-text-color: #434455;
+  --main-background-color: #ffffff;
+  --secondary-background-color: #f4f4fd;
+  --color-hover-focus: #404bbf;
+  --basic-margin: 20px;
+}
+/* глобальне скидання стилів за селектором тегу */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+}
+body {
+  font-family: "Roboto", "sans-serif";
+  color: #434455;
+  background-color: var(--main-background-color);
+}
+.container {
+  width: 1158px;
+  margin: 0px auto;
+  padding: 0 15px;
+}
+/* прибирає крапки зі списків */
+.list {
+  list-style: none;
+}
+/* прибирає підкреслення з елементів */
+.link {
+  text-decoration: none;
+}
+/* прибираємо заголовок */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* дає колір активній сторінці
+.selected {
+  color: var(--btn-color);
+} */
